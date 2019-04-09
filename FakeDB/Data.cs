@@ -10,5 +10,9 @@ namespace hardware_store.DataBase
       new Tool("Hammer", 1234, 5.98m),
       new Tool("screwdriver", 1235, 1.99m)
     };
+    public static List<Cat> CatInventory = new List<Cat>() {
+      new Cat("Sprinkles", 5, 123),
+      new Cat("Sitz", 10, 124)
+    };
   }
 }

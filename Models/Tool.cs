@@ -6,6 +6,7 @@ namespace hardware_store.Models
   {
     [Required]
     public string Name { get; set; }
+
     [Required]
     [Range(1, 1000000)]
     public int Id { get; set; }
